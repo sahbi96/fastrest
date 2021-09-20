@@ -1,0 +1,37 @@
+:root {
+  width: 100vw;
+}
+.banner{
+  background-image: url('./banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity:10;
+
+}
+.home-grip {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  margin: 20px 0 0 80px;
+}
+
+@media only screen and (max-width: 735px) {
+  .home-grip {
+    margin-left: 30px;
+    grid-template-columns: 300px 300px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .home-grip {
+    margin-left: 95px;
+    grid-template-columns: 300px;
+  }
+}
+.img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  height: 20%;
+}
